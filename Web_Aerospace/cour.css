@@ -1,0 +1,154 @@
+{
+	margin:0;
+	padding:0;
+}
+.main
+{
+	width:100%;
+	background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(cour.jpg);
+	background-position:center;
+	background-size:cover;
+	height:109vh;
+}
+.navbar
+{
+	width:1200px;
+	height:75px;
+	margin:auto;
+}
+.icon
+{
+	width:200px;
+	float:left;
+	height:70px;
+}
+.logo
+{
+	color:#ff7200;
+	font-size:35px;
+	font-family:Arial;
+	padding-left:20px;
+	float:left;
+	padding-top:10px;
+}
+
+.menu 
+{
+	width:400px;
+	float:left;
+	height:70px;
+}
+
+ul 
+{
+	float:left;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+ul li
+{
+	list-style:none;
+	margin-left:62px;
+	margin-top:27px;
+	font-size:14px;
+}
+ul li a
+{
+	text-decoration:none;
+	color:#fff;
+	font-family:Arial;
+	font-weight:bold;
+	transition:0.4s ease-in-out;
+}
+ul li a:hover
+{
+	color:#ff7200;
+}
+.login
+{
+	width:330px;
+	float:left;
+	margin-left:270px;
+}
+
+.btn
+{
+	width:100px;
+	height:61px;
+	background:#ff7200;
+	border:2px solid #ff7200;
+	margin-top:13px;
+	color:#fff;
+	font-size:15px;
+	border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.btn:focus
+{
+    outline:none;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 70px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+max-width:300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+ 
+}
+.price {
+  color: white;
+  font-size: 22px;
+  padding-bottom:10px;
+}
+.card a {
+  border: none;
+  outline: 0;
+  padding:5px;
+  color: #fff;
+  
+  background-color: #04AA6D;
+   text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+  font-family:times new roman;
+}
+
+.card a:hover {
+opacity: 0.7;
+background-color: #83acf1;
+color:black;
+
+}
